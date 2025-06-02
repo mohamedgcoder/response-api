@@ -8,13 +8,10 @@
             "Mohamedgcoder\\ResponseApi\\": "src/"
         }
     },
-    "require": {
-        "mohamedgcoder/response-api": "dev-main"
-    },
     "extra": {
         "laravel": {
             "providers": [
-                "mohamedgcoder\\ResponseApi\\ResponseApiServiceProvider"
+                "Mohamedgcoder\\ResponseApi\\ResponseApiServiceProvider"
             ]
         }
     },
