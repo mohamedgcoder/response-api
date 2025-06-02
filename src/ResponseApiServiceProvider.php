@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\ResponseApi;
+namespace Mohamedgcoder\ResponseApi;
 
 use Illuminate\Support\ServiceProvider;
 
