@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\ResponseApi\Traits;
+namespace Mohamedgcoder\ResponseApi\Traits;
 
 trait ResponseApi
 {
