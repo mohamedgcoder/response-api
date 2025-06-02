@@ -21,6 +21,9 @@
             "email": "mohamedgcoder@gmail.com"
         }
     ],
+    "require": {
+        "mohamedgcoder/response-api": "dev-main"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
