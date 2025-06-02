@@ -3,27 +3,24 @@
     "description": "A Laravel package to standardize API responses",
     "type": "library",
     "license": "MIT",
-    "autoload": {
+    "authors": [
+        {
+            "name": "Mohamed Coder",
+            "email": "mohamedgcoder@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload-dev": {
         "psr-4": {
             "Mohamedgcoder\\ResponseApi\\": "src/"
         }
     },
     "extra": {
-        "laravel": {
-            "providers": [
-                "Mohamedgcoder\\ResponseApi\\ResponseApiServiceProvider"
-            ]
-        }
-    },
-    "authors": [
-        {
-            "name": "Mohamed G",
-            "email": "mohamedgcoder@gmail.com"
-        }
-    ],
-    "require": {
-        "mohamedgcoder/response-api": "dev-main"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "laravel": {
+        "providers": [
+            "Mohamedgcoder\\ResponseApi\\ResponseApiServiceProvider"
+        ]
+    }
+  }
 }
