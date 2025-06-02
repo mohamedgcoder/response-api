@@ -8,6 +8,9 @@
             "Mohamedgcoder\\ResponseApi\\": "src/"
         }
     },
+    "require": {
+        "mohamedgcoder/response-api": "dev-main"
+    },
     "extra": {
         "laravel": {
             "providers": [
